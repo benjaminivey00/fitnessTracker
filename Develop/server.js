@@ -28,7 +28,7 @@ app.use("/", htmlRoute);
 
 //Connect to mongodb atlas and server
 mongoose
-	.connect(process.env.MONGODB_URI || "mongodb://localhost/agile-scrubland", {
+	.connect(process.env.MONGODB_URI || "mongodb://localhost/agile-scrubland-19929", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useCreateIndex: true,
